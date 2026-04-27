@@ -3,7 +3,7 @@ entries:
   fortem:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-27T08:56:08.857561+03:00"
+    created: "2026-04-27T19:00:05.303755+03:00"
     dependencies:
     - condition: postgres.enabled
       name: postgresql
@@ -27,4 +27,25 @@ entries:
     urls:
     - https://cybrixcc.github.io/fortem-helm-charts/charts/fortem-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-27T08:56:08.851811+03:00"
+  fortem-agent:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-27T19:00:05.304011+03:00"
+    description: Fortem Agent — connects a Kubernetes cluster to a Fortem Control
+      Plane
+    digest: 6153feef0af42a6a82e43790727710ed20b74a2cc690e04cacdfce417ab7ce73
+    home: https://github.com/cybrixcc/fortem
+    keywords:
+    - kubernetes
+    - fortem
+    - agent
+    - idp
+    maintainers:
+    - email: team@fortem.dev
+      name: Fortem Team
+    name: fortem-agent
+    type: application
+    urls:
+    - https://cybrixcc.github.io/fortem-helm-charts/charts/fortem-agent-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-04-27T19:00:05.297887+03:00"
