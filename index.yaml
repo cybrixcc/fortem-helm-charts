@@ -3,14 +3,9 @@ entries:
   fortem:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-28T11:20:48.801474+03:00"
-    dependencies:
-    - condition: postgres.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 16.x.x
+    created: "2026-04-28T11:26:56.51331+03:00"
     description: Fortem — Kubernetes-native Internal Developer Platform
-    digest: ad67ce079b4f3ae19244c78707b7c9f6c265592edf38eab98cf8260a372f75f4
+    digest: a1a6d2c1a23b989f444980a096077e4d5b0a5280b1a3df5352e87899689a57d7
     home: https://github.com/cybrixcc/fortem
     keywords:
     - kubernetes
@@ -30,7 +25,7 @@ entries:
   fortem-agent:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-28T11:20:48.801939+03:00"
+    created: "2026-04-28T11:26:56.513706+03:00"
     description: Fortem Agent — connects a Kubernetes cluster to a Fortem Control
       Plane
     digest: 6153feef0af42a6a82e43790727710ed20b74a2cc690e04cacdfce417ab7ce73
@@ -48,4 +43,4 @@ entries:
     urls:
     - https://cybrixcc.github.io/fortem-helm-charts/charts/fortem-agent-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-28T11:20:48.796325+03:00"
+generated: "2026-04-28T11:26:56.512377+03:00"
