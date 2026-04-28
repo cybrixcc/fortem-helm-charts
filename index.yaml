@@ -3,9 +3,9 @@ entries:
   fortem:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-28T11:31:45.960736+03:00"
+    created: "2026-04-28T23:58:03.261002+03:00"
     description: Fortem — Kubernetes-native Internal Developer Platform
-    digest: cae48dabac1bb7b98ad27ec867a18314fae6cf54808af63235af06319a131845
+    digest: b3f6f382df04f801e1fde2659eba8ccbce95a8963f6474d3ff22f7df6f65e770
     home: https://github.com/cybrixcc/fortem
     keywords:
     - kubernetes
@@ -25,7 +25,7 @@ entries:
   fortem-agent:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-28T11:31:45.961219+03:00"
+    created: "2026-04-28T23:58:03.261415+03:00"
     description: Fortem Agent — connects a Kubernetes cluster to a Fortem Control
       Plane
     digest: 6153feef0af42a6a82e43790727710ed20b74a2cc690e04cacdfce417ab7ce73
@@ -43,4 +43,4 @@ entries:
     urls:
     - https://cybrixcc.github.io/fortem-helm-charts/charts/fortem-agent-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-28T11:31:45.959393+03:00"
+generated: "2026-04-28T23:58:03.259316+03:00"
